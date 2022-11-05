@@ -1,5 +1,5 @@
 //Navigation menu fuctionality
-const hamburger = document.querySelector("#hamburger-icon");
+const hamburger = document.querySelector("#hamburgermenu-icon");
 const closeIcon = document.querySelector("#closemenu-icon");
 const mobileNav = document.querySelector("#mobile-nav");
 const body = document.querySelector("#body");
