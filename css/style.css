@@ -18,6 +18,7 @@ html {
   --fs-normal: 1rem;
   --secondary-color: #ffffff;
   --primary-color: #000000;
+  --animate-duration: 5s;
 }
 
 body {
@@ -115,6 +116,7 @@ header button {
 }
 .hero-section figure {
   position: relative;
+  --animate-duration: 5s;
 }
 .hero-section figure img {
   z-index: 1;

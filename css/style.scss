@@ -18,6 +18,8 @@ html {
   --fs-normal: 1rem;
   --secondary-color: #ffffff;
   --primary-color: #000000;
+    --animate-duration: 5s;
+
 }
 
 body {
@@ -119,6 +121,7 @@ header {
 
   figure {
     position: relative;
+    --animate-duration: 5s;
 
     img {
       z-index: 1;
