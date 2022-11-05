@@ -30,7 +30,6 @@ a {
   text-decoration: none;
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -121,7 +120,24 @@ header {
 
     img {
       z-index: 1;
+
     }
+
+    @media screen and (min-width: 768px) {      
+        img{      
+            content:url("/assets/images/plate-food-600-removebg.png");
+             } 
+        }
+
+    @media screen and (max-width: 767px){   
+        img{      
+            content:url("/assets/images/plate-food-300-removebg.png");
+        } 
+    }
+    
+  
+   
+
   }
 }
 
