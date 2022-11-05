@@ -17,6 +17,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <body id="body">
     <header>
         <a href="">LOGO</a>
+        <nav >
+            <ul class="mobile-nav" id="mobile-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
         <nav class="desktop-nav">
             <ul>
                 <li><a href="">Home</a></li>
@@ -24,19 +32,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 <li><a href="">Menu</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+            <button>
+                <img id="hamburgermenu-icon" src="./assets/images/hamburgermenu-icon.png" alt="">
+                <img id="closemenu-icon" src="./assets/images/close-icon.png" alt="">
+               </button>
         </nav>
-       <button>
-        <img id="hamburgermenu-icon" src="./assets/images/hamburgermenu-icon.png" alt="">
-        <img id="closemenu-icon" src="./assets/images/close-icon.png" alt="">
-       </button>
-       <nav class="mobile-nav" id="mobile-nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
     </header>
     <main>
         <section class="hero-section">
@@ -48,8 +48,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                     Explore our menu
                 </a>
             </div>
-            <figure class=" animate__animated animate__shakeY animate__infinite	infinite animate__slower ">
-                <img src="./assets/images/plate-food-300-removebg.png" alt="">
+            <figure>
+                <img  class=" animate__animated animate__shakeY animate__infinite	infinite animate__slower " src="./assets/images/plate-food-600-removebg.png" alt="">
             </figure>
         </section>
 
