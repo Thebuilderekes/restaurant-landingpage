@@ -12,13 +12,5 @@ hamburger.addEventListener("click", function() {
 
 
 
-//close menu click functionality
-closeIcon.addEventListener("click", function() {
-  mobileNav.style.display = "none";
-  hamburger.style.display = "block";
-  closeIcon.style.display = "none";
-});
-
-
 
 
