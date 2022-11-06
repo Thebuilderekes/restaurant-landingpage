@@ -45,6 +45,11 @@ h2 {
   text-align: center;
   font-size: var(--fs-semilarge);
 }
+@media (min-width: 1000px) {
+  h2 {
+    font-size: var(--fs-large);
+  }
+}
 
 header {
   background-color: var(--primary-color);
@@ -57,6 +62,10 @@ header {
   left: 0;
   z-index: 100;
   width: 100%;
+}
+header .logo {
+  font-weight: 600;
+  font-size: var(--fs-medium);
 }
 header .mobile-nav {
   position: absolute;
@@ -113,7 +122,7 @@ header .desktop-nav button {
   .hero-section {
     align-items: center;
     flex-direction: row;
-    height: 80vh;
+    height: 100vh;
   }
 }
 @media (min-width: 501px) and (max-width: 899px) {
@@ -180,11 +189,22 @@ header .desktop-nav button {
     margin-bottom: 20%;
   }
 }
+@media (min-width: 1000px) {
+  .about-section {
+    max-width: 70%;
+  }
+}
 .about-section h2 {
   text-align: center;
 }
 .about-section p {
   font-size: var(--fs-semimedium);
+  line-height: 1.5;
+}
+@media (min-width: 1000px) {
+  .about-section p {
+    font-size: var(--fs-semilarge);
+  }
 }
 
 .menu-section {

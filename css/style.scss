@@ -43,6 +43,10 @@ a {
 h2 {
   text-align: center;
   font-size: var(--fs-semilarge);
+
+  @media (min-width: 1000px){
+    font-size: var(--fs-large);
+  }
 }
 
 header {
@@ -56,6 +60,11 @@ header {
   left: 0;
   z-index: 100;
   width: 100%;
+
+  .logo {
+    font-weight: 600;
+    font-size: var(--fs-medium);
+  }
 
   .mobile-nav {
     position: absolute;
@@ -115,7 +124,7 @@ header {
   @media (min-width: 900px) {
     align-items: center;
     flex-direction: row;
-    height: 80vh;
+    height: 100vh;
   }
 
   @media (min-width: 501px) and (max-width: 899px) {
@@ -177,17 +186,29 @@ header {
 .about-section {
   margin-bottom: 20%;
 
+ 
+
   @media (min-width: 700px) {
     max-width: 80%;
     margin: 0 auto;
     margin-bottom: 20%;
   }
+
+  @media (min-width: 1000px) {
+    max-width: 70%;
+  }
+
   h2 {
     text-align: center;
   }
 
   p {
     font-size: var(--fs-semimedium);
+    line-height: 1.5;
+
+    @media (min-width: 1000px) {
+     font-size: var(--fs-semilarge); 
+    }
   }
 }
 
