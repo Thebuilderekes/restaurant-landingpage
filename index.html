@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Grills - Home </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body id="body">
     <header>
         <a href="">LOGO</a>
-        <nav >
+        <nav>
             <ul class="mobile-nav" id="mobile-nav">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -35,7 +35,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             <button>
                 <img id="hamburgermenu-icon" src="./assets/images/hamburgermenu-icon.png" alt="">
                 <img id="closemenu-icon" src="./assets/images/close-icon.png" alt="">
-               </button>
+            </button>
         </nav>
     </header>
     <main>
@@ -49,55 +49,66 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 </a>
             </div>
             <figure>
-                <img  class=" animate__animated animate__shakeY animate__infinite	infinite animate__slower " src="./assets/images/plate-food-600-removebg.png" alt="">
+                <img class=" animate__animated animate__shakeY animate__infinite	infinite animate__slower "
+                    src="./assets/images/plate-food-300-removebg.png" alt="">
             </figure>
+        </section>
+
+        <section class="about-section">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eum cum cumque, asperiores nihil molestiae animi sint laborum mollitia, assumenda dolorem? Voluptatem, accusamus nam, ipsam similique quaerat dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, similique exercitationem. Cumque veritatis sapiente id dolore voluptas, ex officiis quod. officiis, vero nulla aliquam eligendi iusto corrupti tempore error fuga tempora illo. Cupiditate impedit voluptatibus, ut ipsa voluptates quia mollitia magnam assumenda?</p>
         </section>
 
         <section class="menu-section" id="menu-section">
             <h2>Menu</h2>
             <div class="menu-section-cards">
-                <article>
+                <article data-aos="fade-up" data-aos-duration="3200">
                     <figure>
-                   <img src="./assets/images/plate-food-300-removebg.png" alt="">
-                    </figure>
-                   <div class="article-details">
-                    <h3>
-                        chicken soup
-                    </h3>
-                    <p>
-                        3500
-                    </p> 
-                   </div>
-                </article>
-                <article>
-                    <figure>
-                   <img src="./assets/images/plate-food-300-removebg.png" alt="">
-                    </figure>
-                   <div class="article-details">
-                    <h3>
-                        chicken soup
-                    </h3>
-                    <p>
-                        3500
-                    </p> 
-                   </div>
-                </article>
-                <article>
-                    <figure>
-                      <img src="./assets/images/plate-food-300-removebg.png" alt="">
+                        <img src="./assets/images/plate-food-300-removebg.png" alt="">
                     </figure>
                     <div class="article-details">
                         <h3>
-                            chicken soup
+                         plate of food
                         </h3>
                         <p>
                             3500
-                        </p> 
-                       </div>
-                    </article>
+                        </p>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3100">
+                    <figure>
+                        <img src="./assets/images/plate-food-300-removebg.png" alt="">
+                    </figure>
+                    <div class="article-details">
+                        <h3>
+                         plate of food
+                        </h3>
+                        <p>
+                            3500
+                        </p>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000">
+                    <figure>
+                        <img src="./assets/images/plate-food-300-removebg.png" alt="">
+                    </figure>
+                    <div class="article-details">
+                        <h3>
+                         plate of food
+                        </h3>
+                        <p>
+                            3500
+                        </p>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
     <script src="./js/style.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
