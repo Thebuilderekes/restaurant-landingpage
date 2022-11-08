@@ -82,7 +82,8 @@ header {
       a {
         padding: 0 2rem;
         color: #ffffff;
-        font-size: var(--fs-medium);
+        font-size: var(  --fs-semimedium);
+        font-weight: 600;
       }
     }
 
@@ -98,7 +99,8 @@ header {
         a {
           text-decoration: none;
           padding: 0 10px;
-          font-size: var(--fs-medium);
+          font-size: var(  --fs-semimedium);
+          font-weight: 600;
         }
       }
 
@@ -222,7 +224,7 @@ header {
   }
 }
 
-.food-section {
+.food-drinks-section {
   padding-top: 2rem;
   background-color: #0f0f0f;
 
