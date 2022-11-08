@@ -293,4 +293,8 @@ footer address {
 footer .copy-text {
   padding-top: 5%;
   text-align: center;
+}
+footer small a {
+  color: yellow;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
