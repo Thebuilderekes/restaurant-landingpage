@@ -6,13 +6,14 @@ closeIcon.style.display = "none";
 mobileNav.style.display = "none";
 
 //Hamburger menu click functionality
-hamburger.addEventListener("click", function () {
-  if(mobileNav.style.display === "none") {
+hamburger.addEventListener("click", function (event) {
+  if (mobileNav.style.display === "none") {
     mobileNav.style.display = "block";
     hamburger.style.display = "none";
     closeIcon.style.display = "block";
-  } 
-  console.log("working")
+  }
+
+  console.log("working");
 });
 
 //close menu click functionality
