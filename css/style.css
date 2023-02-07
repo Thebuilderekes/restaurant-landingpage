@@ -37,6 +37,11 @@ body {
   padding: 0 2rem;
   background-color: var(--primary-color);
 }
+@media (max-width: 500px) {
+  body {
+    padding: 0 1.5rem;
+  }
+}
 
 a {
   text-decoration: none;
