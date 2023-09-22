@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -34,7 +35,7 @@
                     <li><a href="#drinks">Drinks menu</a></li>
                     <li><a href="#footer">Contact</a></li>
                 </ul>
-                <button>
+                <button class="nav-toggler-btn">
                     <img id="hamburgermenu-icon" src="./assets/images/hamburgermenu-icon.png" alt="hopen menu button">
                     <img id="closemenu-icon" src="./assets/images/close-icon.png" alt="close menu button">
                 </button>
@@ -44,9 +45,9 @@
             <section class="hero-section" data-aos="fade-in" data-aos-duration="3200">
                 <div class="hero-section-text">
                     <h1>
-                        Dine at the most exquisite restaurant
+                        Experience the Finest Cuisine in Town
                     </h1>
-                    <a href="#food-drinks-section">
+                    <a class="explore-menu-btn" href="#food-drinks-section">
                         Explore our menu
                     </a>
                 </div>
@@ -70,64 +71,66 @@
             <section class="food-drinks-section" id="food-drinks-section" data-aos="fade-up" data-aos-duration="3200">
                 <h2>Food menu</h2>
                 <div class="section-cards">
-                    <article data-aos="fade-up" data-aos-duration="3200">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3200">
                         <figure>
-                            <img src="./assets/images/plate-food-300-removebg.png" alt="plate of food">
+                            <img src="./assets/images/platefood-1.png" alt="plate of food">
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
-                                Plate of food
+                               food
                             </h3>
                             <div class="place-order">
                                 <p>
                                     ₦4000
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
+                             
                             </div>
 
                         </div>
                     </article>
-                    <article data-aos="fade-up" data-aos-duration="3100">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3100">
                         <figure>
-                            <img src="./assets/images/plate-food-300-removebg.png" alt="plate of food">
+                            <img src="./assets/images/platefood-2.png" alt="plate of food">
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
-                                Plate of food
+                               food
                             </h3>
                             <div class="place-order">
                                 <p>
                                     ₦4500
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
                             </div>
 
                         </div>
                     </article>
-                    <article data-aos="fade-up" data-aos-duration="3000">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3000">
                         <figure>
-                            <img src="./assets/images/plate-food-300-removebg.png" alt="plate of food">
+                            <img src="./assets/images/platefood-1.png" alt="plate of food">
+                            
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
-                                Plate of food
+                               food
                             </h3>
                             <div class="place-order">
                                 <p>
                                     ₦3500
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
                             </div>
                         </div>
                     </article>
                 </div>
                 <h2 id="drinks">Drinks</h2>
                 <div class="section-cards">
-                    <article data-aos="fade-up" data-aos-duration="3200">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3200">
                         <figure>
-                            <img src="./assets/images/wine-bottle.png" alt="bottle of wine">
+                            <img src="./assets/images/bottle-1.png" alt="bottle of wine">
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
                                 wine
                             </h3>
@@ -135,15 +138,16 @@
                                 <p>
                                     ₦15000
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
+                             
                             </div>
                         </div>
                     </article>
-                    <article data-aos="fade-up" data-aos-duration="3100">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3100">
                         <figure>
-                            <img src="./assets/images/wine-bottle.png" alt="bottle of wine">
+                            <img src="./assets/images/bottle-1.png" alt="bottle of wine">
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
                                 wine
                             </h3>
@@ -151,15 +155,16 @@
                                 <p>
                                     ₦10000
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
+                             
                             </div>
                         </div>
                     </article>
-                    <article data-aos="fade-up" data-aos-duration="3000">
+                    <article class="product-card" data-aos="fade-up" data-aos-duration="3000">
                         <figure>
-                            <img src="./assets/images/wine-bottle.png" alt="bottle of wine">
+                            <img src="./assets/images/bottle-1.png" alt="bottle of wine">
                         </figure>
-                        <div class="article-details">
+                        <div class="product-info">
                             <h3>
                                 wine
                             </h3>
@@ -168,7 +173,8 @@
                                 <p>
                                     ₦12000
                                 </p>
-                                <a href=" ">Place order</a>
+                                <button  aria-disabled="true" >Place order</button>
+                             
                             </div>
                         </div>
                     </article>
@@ -182,8 +188,23 @@
                 Yenagoa, Bayelsa, Nigeria.
             </address>
             <h3>Contact us</h3>
-            <a aria-label=" " href="#"><img src="./assets/images/instagram-logo-36.png" alt=""></a>
-            <a aria-label=" " href="#"><img src="./assets/images/icons8-facebook-36.png" alt=""></a>
+
+            <div class="phone-number" style="display: flex; gap: 1rem; padding-bottom: 20px;">
+               <img width= "20" height="20" src="./assets/images/phone-icon.png" alt="phone icon">
+                <a href="tel:+23408009990990">(+234) 08009990990</a>
+            </div>
+
+            <ul>
+                <li>
+
+                    <a aria-label=" " href="#"><img src="./assets/images/instagram-logo-36.png" alt=""></a>
+                </li>
+                <li>
+    
+                    <a aria-label=" " href="#"><img src="./assets/images/icons8-facebook-36.png" alt=""></a>
+                </li>
+            </ul>
+         
 
             <div class="copy-text">
                 <small>&copy; Copyright 2022, Restaurant website.</small> <br>
