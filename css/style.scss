@@ -18,13 +18,13 @@ body {
 }
 
 :root {
-	--fs-mega-large: 5rem; //80px
-	--fs-extra-large: 3.5rem; // 56px
-	--fs-large: 3rem; //48px
-	--fs-semilarge: 2rem; //32px
-	--fs-medium: 1.5rem; //24px
-	--fs-semimedium: 1.125rem; //18px
-	--fs-normal: 1rem; //16px
+	--size-mega-large: 5rem; //80px
+	--size-extra-large: 3.5rem; // 56px
+	--size-large: 3rem; //48px
+	--size-semilarge: 2rem; //32px
+	--size-medium: 1.5rem; //24px
+	--size-semimedium: 1.125rem; //18px
+	--size-normal: 1rem; //16px
 	--secondary-color: #e2dfdf;
 	--primary-color: #000000;
 	--hover-bg-color: rgb(238, 206, 22);
@@ -48,10 +48,10 @@ a {
 
 h2 {
 	text-align: center;
-	font-size: var(--fs-semilarge);
+	font-size: var(--size-semilarge);
 
 	@media (min-width: 1000px) {
-		font-size: var(--fs-large);
+		font-size: var(--size-large);
 	}
 }
 
@@ -74,7 +74,7 @@ header {
 
 	.logo {
 		font-weight: 600;
-		font-size: var(--fs-medium);
+		font-size: var(--size-medium);
 	}
 
 	/*=================Navigation========================*/
@@ -93,7 +93,7 @@ header {
 			a {
 				padding: 0 2rem;
 				color: #ffffff;
-				font-size: var(--fs-semimedium);
+				font-size: var(--size-semimedium);
 				font-weight: 600;
 			}
 		}
@@ -110,7 +110,7 @@ header {
 				a {
 					text-decoration: none;
 					padding: 0 10px;
-					font-size: var(--fs-semimedium);
+					font-size: var(--size-semimedium);
 					font-weight: 600;
 					translate: 2s all ease-in-out;
 
@@ -161,15 +161,15 @@ header {
 
 	.hero-section-text {
 		h1 {
-			font-size: var(--fs-semilarge);
+			font-size: var(--size-semilarge);
 			text-wrap: balance;
 			padding-bottom: 2rem;
 
 			@media (min-width: 1400px) {
-				font-size: var(--fs-mega-large);
+				font-size: var(--size-mega-large);
 			}
 			@media (min-width: 700px) {
-				font-size: var(--fs-extra-large);
+				font-size: var(--size-extra-large);
 			}
 
 			@media (min-width: 300px) and (max-width: 699px) {
@@ -183,7 +183,7 @@ header {
 			padding: 15px 30px;
 			background-color: var(--secondary-color);
 			color: var(--primary-color);
-			font-size: var(--fs-medium);
+			font-size: var(--size-medium);
 
 			&:hover {
 				background-color: var(--hover-bg-color);
@@ -241,11 +241,12 @@ header {
 	}
 
 	p {
-		font-size: var(--fs-semimedium);
+		font-size: var(--size-semimedium);
 		line-height: 1.5;
+		padding-bottom: 50px;
 
 		@media (min-width: 1000px) {
-			font-size: var(--fs-semilarge);
+			font-size: var(--size-semilarge);
 		}
 	}
 }
@@ -302,7 +303,7 @@ header {
 					font-family: "Jost", sans-serif;
 					border: none;
 					border-radius: 5px;
-					font-size: var(--fs-semimedium);
+					font-size: var(--size-semimedium);
 					padding: 0 10px;
 					height: 38px;
 					color: var(--primary-color);
@@ -334,20 +335,20 @@ footer {
 	}
 
 	h3 {
-		font-size: var(--fs-large);
+		font-size: var(--size-large);
 		padding: 5% 0;
 
 		@media (min-width: 1000px) {
-			font-size: var(--fs-large);
+			font-size: var(--size-large);
 			padding: 1% 0;
 		}
 		@media (max-width: 400px) {
-			font-size: var(--fs-extra-large);
+			font-size: var(--size-extra-large);
 		}
 	}
 
 	address {
-		font-size: var(--fs-medium);
+		font-size: var(--size-medium);
 		font-style: normal;
 		padding-bottom: 20px;
 	}
