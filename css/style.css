@@ -28,6 +28,7 @@ body {
   --size-normal: 1rem;
   --secondary-color: #e2dfdf;
   --primary-color: #000000;
+  --section-bg-color: #0f0f0f;
   --hover-bg-color: rgb(238, 206, 22);
   --animate-duration: 5s;
 }
@@ -249,7 +250,7 @@ header .desktop-nav button {
 
 .food-drinks-section {
   padding-top: 2rem;
-  background-color: #0f0f0f;
+  background-color: var(--section-bg-color);
 }
 .food-drinks-section .section-cards {
   padding: 5% 0;
@@ -310,9 +311,6 @@ header .desktop-nav button {
 
 /*=================Footer section========================*/
 footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 20% 0 0 0;
 }
 @media (min-width: 768px) {
@@ -325,29 +323,36 @@ footer {
     padding-top: 5%;
   }
 }
-footer h3 {
+footer dl {
+  text-align: center;
+}
+footer dl dt {
   font-size: var(--size-large);
   padding: 5% 0;
 }
 @media (min-width: 1000px) {
-  footer h3 {
+  footer dl dt {
     font-size: var(--size-large);
     padding: 1% 0;
   }
 }
 @media (max-width: 400px) {
-  footer h3 {
+  footer dl dt {
     font-size: var(--size-extra-large);
   }
 }
-footer address {
+footer dl dd address {
   font-size: var(--size-medium);
   font-style: normal;
   padding-bottom: 20px;
 }
-footer ul {
+footer dl dd .phone-number a {
+  text-align: center;
+}
+footer dl dd ul {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 footer .copy-text {
   padding-top: 5%;
@@ -356,4 +361,5 @@ footer .copy-text {
 footer small a {
   color: yellow;
   text-decoration: underline;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
