@@ -21,14 +21,15 @@ body {
 	--size-mega-large: 5rem; //80px
 	--size-extra-large: 3.5rem; // 56px
 	--size-large: 3rem; //48px
-	--size-semilarge: 2rem; //32px
+	--size-semi-large: 2rem; //32px
 	--size-medium: 1.5rem; //24px
-	--size-semimedium: 1.125rem; //18px
+	--size-semi-medium: 1.125rem; //18px
 	--size-normal: 1rem; //16px
 	--secondary-color: #e2dfdf;
 	--primary-color: #000000;
 	--section-bg-color: #0f0f0f;
-	--hover-bg-color: rgb(238, 206, 22);
+	--bg-color: #161616;
+	--hover-bg-color: #eece16;
 	--animate-duration: 5s;
 }
 
@@ -49,13 +50,18 @@ a {
 
 h2 {
 	text-align: center;
-	font-size: var(--size-semilarge);
+	font-size: var(--size-semi-large);
 
 	@media (min-width: 1000px) {
 		font-size: var(--size-large);
 	}
 }
 
+.flex-col-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 /*=================Header section========================*/
 
 header {
@@ -94,7 +100,7 @@ header {
 			a {
 				padding: 0 2rem;
 				color: #ffffff;
-				font-size: var(--size-semimedium);
+				font-size: var(--size-semi-medium);
 				font-weight: 600;
 			}
 		}
@@ -111,7 +117,7 @@ header {
 				a {
 					text-decoration: none;
 					padding: 0 10px;
-					font-size: var(--size-semimedium);
+					font-size: var(--size-semi-medium);
 					font-weight: 600;
 					translate: 2s all ease-in-out;
 
@@ -162,7 +168,7 @@ header {
 
 	.hero-section-text {
 		h1 {
-			font-size: var(--size-semilarge);
+			font-size: var(--size-semi-large);
 			text-wrap: balance;
 			padding-bottom: 2rem;
 
@@ -239,20 +245,21 @@ header {
 
 	h2 {
 		text-align: center;
+		text-decoration: wavy;
 	}
 
 	p {
-		font-size: var(--size-semimedium);
+		font-size: var(--size-semi-medium);
 		line-height: 1.5;
 		padding-bottom: 50px;
 
 		@media (min-width: 1000px) {
-			font-size: var(--size-semilarge);
+			font-size: var(--size-semi-large);
 		}
 	}
 }
 
-.food-drinks-section {
+.cuisine-wine-section {
 	padding-top: 2rem;
 	background-color: var(--section-bg-color);
 
@@ -272,6 +279,7 @@ header {
 	article {
 		border: 1px solid #181818;
 		border-radius: 12px;
+		background-color: var(--bg-color);
 		margin: 50px 2rem;
 		width: 300px;
 		height: 400px;
@@ -291,20 +299,23 @@ header {
 		}
 
 		.product-info {
+			display: flex;
+			flex-direction: column;
+			gap: var(--size-semi-medium);
 			padding: 10px;
 			color: var(--primary-color);
 
 			.place-order {
 				display: flex;
-				padding: 5px;
-				justify-content: space-between;
-				align-items: center;
+				flex-direction: column;
+				gap: var(--size-semi-medium);
 
 				button {
+					width: 120px;
 					font-family: "Jost", sans-serif;
 					border: none;
 					border-radius: 5px;
-					font-size: var(--size-semimedium);
+					font-size: var(--size-semi-medium);
 					padding: 0 10px;
 					height: 38px;
 					color: var(--primary-color);
