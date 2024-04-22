@@ -29,7 +29,7 @@ body {
   --secondary-color: #e2dfdf;
   --primary-color: #000000;
   --section-bg-color: #0f0f0f;
-  --bg-color: #161616;
+  --bg-color: #1d1c1c;
   --hover-bg-color: #eece16;
   --animate-duration: 5s;
 }
@@ -271,6 +271,7 @@ header .desktop-nav button {
   .cuisine-wine-section .section-cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
 }
