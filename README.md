@@ -15,6 +15,6 @@ Product catalog featuring various cuisines and wines.
 
 HTML: Structure of the web pages.
 CSS: Styling and layout of the website.
-JavaScript: Interactive elements like the navigation menu
+JavaScript: Interactive elements like the navigation menu. Animate on scroll JavaScript library to control the display of products in scroll.
   
  
